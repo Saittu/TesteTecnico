@@ -1,0 +1,28 @@
+1. Dado a sequência de Fibonacci, onde se inicia por 0 e 1 e o próximo valor sempre será a soma dos 2 valores anteriores (exemplo: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34...), escreva um programa na linguagem que desejar onde, informado um número, ele calcule a sequência de Fibonacci e retorne uma mensagem avisando se o número informado pertence ou não a sequência.
+
+Resolução em Fibonacci.py
+
+2. Escreva um programa que verifique, em uma string, a existência da letra ‘a’, seja maiúscula ou minúscula, além de informar a quantidade de vezes em que ela ocorre.
+
+Resolução em StrUpper.py
+
+3. Observe o trecho de código abaixo: int INDICE = 12, SOMA = 0, K = 1; enquanto K < INDICE faça { K = K + 1; SOMA = SOMA + K; } imprimir(SOMA);
+
+Ao final do processamento, qual será o valor da variável SOMA? 77 (valor descoberto com base em Task.js)
+
+4. Descubra a lógica e complete o próximo elemento:
+a. 1, 3, 5, 7, __ (A resposta é 9, a sequência é um soma de 2)
+
+b. 2, 4, 8, 16, 32, 64, ____ (A resposta é 128, cada valor é o dobro do anterior)
+
+c 0, 1, 4, 9, 16, 25, 36, ____ (A resposta é 49, com uma sequência de valores elevados ao quadrado)
+
+d. 4, 16, 36, 64, ____ (A resposta é 100, são valores pares elevados ao quadrado)
+
+e. 1, 1, 2, 3, 5, 8, ____ (A resposta é 13, sendo uma sequência de Fibonacci)
+
+f. 2,10, 12, 16, 17, 18, 19, ____ (A resposta é 20, seguindo a lógica que o próximo valor seria somado por +1)
+
+5. Você está em uma sala com três interruptores, cada um conectado a uma lâmpada em salas diferentes. Você não pode ver as lâmpadas da sala em que está, mas pode ligar e desligar os interruptores quantas vezes quiser. Seu objetivo é descobrir qual interruptor controla qual lâmpada. Como você faria para descobrir, usando apenas duas idas até uma das salas das lâmpadas, qual interruptor controla cada lâmpada? 
+
+Resolução: Ligaria o primeiro interruptor (Interruptor X) e o deixaria ligado por um tempo considerável para que a lâmpada ficasse quente. Em seguida, apagaria o Interruptor X e ligaria o segundo interruptor (Interruptor Y), mantendo-o ligado. Depois, iria até as salas com as lâmpadas. A lâmpada que estiver quente e apagada será a do Interruptor X. A lâmpada que estiver acesa será a do Interruptor Y. A lâmpada que estiver apagada e fria será a do Interruptor Z.
